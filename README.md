@@ -1,9 +1,10 @@
-vida
----------
+A minimal theme for Jekyll derived by (slightly) adapting the Vida theme by Alex Sun. See,
 
-vida is a simple and beautiful jekyll theme.
-You can see demo [here](http://syaningv.com/vida/).
+- [repository](https://github.com/syaning/vida) for the Vida theme on Github.
+- [live demo](http://syaningv.com/vida/) of Vida.
 
-### License
+Modifications by Matias Dahl.
+
+## License
 
 MIT

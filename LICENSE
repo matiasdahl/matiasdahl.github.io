@@ -1,6 +1,15 @@
+This repository is based on the Vida theme (https://github.com/syaning/vida)
+for Jekyll by Alex Sun. More specifically, it is based on the theme in its
+state as of May 18, 2015 (last commit `2fa7fbcf229c756ce49657e268547cc587e77d59`).
+See the MIT license below. Modifications by Matias Dahl are also released under
+the MIT license.
+
+--------
+
 The MIT License (MIT)
 
 Copyright (c) Alex Sun
+Modifications (c) Matias Dahl, 2015
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal

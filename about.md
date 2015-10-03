@@ -4,8 +4,11 @@ title:     About
 permalink: /about/
 ---
 
-Vida is a minimalist jekyll theme.
+This is a minimal theme for Jekyll derived by (slightly) adapting the
+Vida theme by Alex Sun. See:
 
-- Author: Alex Sun
-- Email:  syaningv@gmail.com
-- Github: [https://github.com/syaning/vida](https://github.com/syaning/vida)
+- [repository](https://github.com/syaning/vida) for the Vida theme on Github.
+- [live demo](http://syaningv.com/vida/) of Vida.
+
+Modifications by Matias Dahl, see this [github repository](https://github.com/matiasdahl/homepage).
+

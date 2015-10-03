@@ -1,13 +1,10 @@
 ---
 layout: post
-title:  Styles for vida
+title:  Testing different styles
 date:   2015-05-03 10:30:00
 ---
 
-Vida is a simple and beautiful jekyll theme, it has only the essential functions
-so that you can concentrate on the content of your blog.
-
-First of all, let's have a glance at the basic styles: [link](http://github.com/syaning/vida),
+First of all, let's have a glance at the basic styles:
 **strong**, *italic*, <del>deletion</del>, <ins>insertion</ins>.
 
 ### Headers:
