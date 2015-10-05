@@ -1,4 +1,9 @@
 @charset "utf-8";
+
+body {
+    overflow-y: scroll;
+}
+
 main {
     max-width: 48rem;
     margin: 0 auto 3rem;
@@ -6,6 +11,8 @@ main {
 }
 .site-header {
     .site-title {
+        float: left;
+        width: 80%;
         font-weight: 300;
         > a {
             color: $text-color;
@@ -13,18 +20,25 @@ main {
         }
     }
     .site-nav {
+        float: right;
+        width: 20%;
+        font-size: 1.57em;
         > a {
             color: $text-color;
             &:hover {
                 text-decoration: none;
             }
             &.active {
-                border-bottom: 2px solid #666;
+                padding: 4px 0;
+                border-bottom: 2px solid $meta-color;
             }
             + a {
                 margin-left: 1rem;
             }
         }
+    }
+    .site-break {
+        clear: both;
     }
 }
 .posts {
@@ -46,11 +60,13 @@ main {
 .post {
     position: relative;
     .post-header {
+        line-height: 1.55;
+        width: 80%;
         text-align: center;
-        margin-bottom: 0;
+        margin: 70px auto 15px auto;
     }
     .post-meta {
-        margin: 0;
+        margin: 15px 0px 30px 0px;
         text-align: center;
         color: $meta-color;
         font-size: $small-font-size;

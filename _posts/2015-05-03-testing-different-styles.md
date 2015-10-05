@@ -5,16 +5,22 @@ date:   2015-05-03 10:30:00
 ---
 
 First of all, let's have a glance at the basic styles:
-**strong**, *italic*, <del>deletion</del>, <ins>insertion</ins>.
+**strong**, *italic*, <del>deletion</del>, <ins>insertion</ins>. Underscore also works as on [Github](https://help.github.com/articles/github-flavored-markdown/):
 
-### Headers:
+- in code: `test_, test_test, _test in italic_, test_test_test`
+- in text: test_, test_test, _test in italic_, test_test_test
 
 # Header 1
+
+Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+
 ## Header 2
+
+Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+
 ### Header 3
-#### Header 4
-##### Header 5
-###### Header 6
+
+Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 
 ### Lists:
 
