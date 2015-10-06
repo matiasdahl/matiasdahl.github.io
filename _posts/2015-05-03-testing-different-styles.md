@@ -62,7 +62,7 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor 
 
 ### Image:
 
-![](/images/image.jpg)
+![]({{ site.baseurl }}/assets/2015-testing-styles/image.jpg)
 
 ### Tables:
 
