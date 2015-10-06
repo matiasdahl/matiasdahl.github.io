@@ -6,7 +6,7 @@ body {
 
 main {
     max-width: 48rem;
-    margin: 0 auto 3rem;
+    margin: 0 auto 0;
     padding: 0 2rem;
 }
 .site-header {
@@ -47,7 +47,7 @@ main {
     > li {
         line-height: 1.75;
         span {
-            color: $meta-color;
+            color: $text-color;
             margin-right: 1.5rem;
             font-size: $small-font-size;
         }
@@ -66,12 +66,31 @@ main {
         margin: 70px auto 15px auto;
     }
     .post-meta {
-        margin: 15px 0px 30px 0px;
+        margin: 20px 0px 27px 0px;
         text-align: center;
-        color: $meta-color;
-        font-size: $small-font-size;
+        font-size: 0.98rem;
+        color: $text-color;
     }
 }
+
+.footer {
+    position: relative;
+    text-align: center;
+    margin: 2rem 0 2rem 0;
+    color: $meta-color;
+    letter-spacing: 0.02rem;
+    font-size: $small-font-size;
+    font-family: 'Lato', sans-serif;
+    > a {
+        color: $meta-color;
+        text-decoration: none;
+    }
+    .dot-sep {
+        margin-left: 0.65rem;
+        margin-right: 0.65rem;
+    }
+}
+
 @media screen and (max-width: 48rem) {
     .site-header {
         .site-title,
