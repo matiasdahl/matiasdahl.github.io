@@ -38,10 +38,11 @@ img {
     max-width: 100%;
 }
 table {
+    margin: 0 auto 30px auto;
     border-collapse: separate;
     border-spacing: 0;
-    max-width: 100%;
-    width: 100%;
+    overflow-x: auto;
+    display: block;
 }
 th,
 td {

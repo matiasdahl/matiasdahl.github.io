@@ -64,34 +64,25 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor 
 
 ![](/images/image.jpg)
 
-### Table:
+### Tables:
 
-<table>
-    <thead>
-        <tr>
-            <th>Name</th>
-            <th>Age</th>
-            <th>Fruit</th>
-        </tr>
-    </thead>
-    <tbody>
-        <tr>
-            <td>Alex</td>
-            <td>22</td>
-            <td>Apple</td>
-        </tr>
-        <tr>
-            <td>Bran</td>
-            <td>20</td>
-            <td>Orange</td>
-        </tr>
-        <tr>
-            <td>Mike</td>
-            <td>21</td>
-            <td>Waltermelon</td>
-        </tr>
-    </tbody>
-</table>
+Tables can be created using Markdown. The first table fits on screen:
+
+| Name | Age | Fruit      |
+|:-----|----:|:-----------|
+| Alex | 22  | Apple      |
+| Bran | 20  | Orange     |
+| Mike | 21  | Watermelon |
+
+
+If the table is wider than the screen, a scroll bar appears:
+
+|x  |        y1|        y2|        y3|        y4|        y5|        y6|        y7|        y8|        y9|       y10|
+|:--|---------:|---------:|---------:|---------:|---------:|---------:|---------:|---------:|---------:|---------:|
+|A  | 0.0120322| 0.1604227| 0.0475750| 0.0195603| 0.6300875| 0.0988451| 0.7523581| 0.1064724| 0.9263830| 0.2172876|
+|B  | 0.7866424| 0.8760143| 0.1726650| 0.1236457| 0.9585477| 0.2710412| 0.3114512| 0.0961548| 0.1499255| 0.5575171|
+|C  | 0.4248450| 0.8750728| 0.3494551| 0.8178633| 0.3962382| 0.1846068| 0.8154139| 0.5149306| 0.5695919| 0.3242904|
+
 
 ### Code
 
