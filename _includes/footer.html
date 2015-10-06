@@ -1,11 +1,14 @@
-{% if page.title != "About" %}
-
+{% unless page.name == "about.md" %}
     <p class="footer">
-        {{ site.author }} 2015
-        <span class="dot-sep">&middot;</span>
-        <a href="http://github.com">Github</a>
-        <span class="dot-sep">&middot;</span>
-        <a href="https://www.linkedin.com">LinkedIn</a>
-    </p>
+        {% unless page.name == "index.html" %}
+          {{ site.author }} 2015
+          <span class="dot-sep">&middot;</span>
+        {% endunless %}
 
-{% endif %}
+        <a href="http://github.com/matiasdahl">Github</a>
+        <span class="dot-sep">&middot;</span>
+        <a href="https://fi.linkedin.com/in/matiasdahl">LinkedIn</a>
+        <span class="dot-sep">&middot;</span>
+        <a href="http://color-practice.com">Color Practice</a>
+    </p>
+{% endunless %}

@@ -1,10 +1,5 @@
-A minimal theme for Jekyll derived by (slightly) adapting the Vida theme by Alex Sun. See,
+This repository contains the source files for my homepage:
 
-- [repository](https://github.com/syaning/vida) for the Vida theme on Github.
-- [live demo](http://syaningv.com/vida/) of Vida.
+- [https://matiasdahl.github.io/](https://matiasdahl.github.io/)
 
-Modifications by Matias Dahl.
-
-## License
-
-MIT
+Build using [Jekyll](https://jekyllrb.com/) by [adapting](https://github.com/matiasdahl/homepage-theme) the [Vida](https://github.com/syaning/vida) theme.
