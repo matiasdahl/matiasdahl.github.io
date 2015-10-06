@@ -90,12 +90,3 @@ main {
         margin-right: 0.65rem;
     }
 }
-
-@media screen and (max-width: 48rem) {
-    .site-header {
-        .site-title,
-        .site-nav {
-            text-align: center;
-        }
-    }
-}
