@@ -1,6 +1,6 @@
 ---
 layout:       post
-asset-dir:    /assets/2015/loading-openstreetmap-amenity-data-into-R/
+asset-dir:    /assets/2015/loading-openstreetmap-amenity-data-into-r/
 title:        Loading OpenStreetMap amenity data into R
 date:         2015-11-15
 ---
