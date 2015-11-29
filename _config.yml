@@ -12,4 +12,4 @@ markdown:     redcarpet
 redcarpet:
   extensions: ['smart', 'tables', 'with_toc_data', 'no_intra_emphasis']
 
-permalink:    /blog/:year/:title
+permalink:    /:year/:title
