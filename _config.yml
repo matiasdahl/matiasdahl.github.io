@@ -8,8 +8,10 @@ google_analytics:
 disqus_shortname:
 
 # Build settings
-markdown:     redcarpet
-redcarpet:
-  extensions: ['smart', 'tables', 'with_toc_data', 'no_intra_emphasis']
+markdown:     kramdown
+kramdown:
+  input: GFM
+  # pretty single and double quotes
+  smart_quotes:   lsquo,rsquo,ldquo,rdquo 
 
 permalink:    /:year/:title

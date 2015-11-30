@@ -22,10 +22,13 @@ h3 {
     font-weight: 300;
 }
 
-
 h1 {font-size: 1.9em;}
 
-h2 {font-size: 1.6em;}
+h2 {
+  margin-top: 0.95em;
+  margin-bottom: 0.85em;
+  font-size: 1.6em;
+}
 
 h3 {font-size: 1.35em;}
 
@@ -34,11 +37,13 @@ blockquote {
     padding-left: 1rem;
     border-left: 3px solid $border-color;
 }
+
 img {
     max-width: 100%;
 }
+
 table {
-    margin: 0 auto 30px auto;
+    margin: 22px auto 36px auto;
     border-collapse: separate;
     border-spacing: 0;
     overflow-x: auto;
