@@ -4,7 +4,6 @@ baseurl: ""
 
 date_format: "%m/%Y"
 
-google_analytics:
 disqus_shortname:
 
 # Build settings
