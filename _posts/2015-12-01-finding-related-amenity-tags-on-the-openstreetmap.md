@@ -1,7 +1,7 @@
 ---
 layout: post
 asset-dir: /assets/2015/finding-related-amenity-tags-on-the-openstreetmap/
-title: Finding related amenity tags on the OpenStreetMap
+title: Finding related amenity tags on OpenStreetMap
 date: 2015-12-01
 ---
 
@@ -55,14 +55,26 @@ date: 2015-12-01
       margin-bottom: 45px;
     }
 
+    .update_header {
+      color: #9f9f9f;
+    }
+
+    .update_note {
+      color: #aaaaaa;
+      background: #f9f9f9;
+      width: 88%;
+      display: block;
+      margin: 60px auto 60px auto;
+      padding: 20px 30px 20px 30px;
+    }
+
 </style>
 
 
 
 
-
-**Update 18.1.2015:** If you find these diagrams interesting, please visit [matiasdahl.github.io/osm-tag-dynamics](http://matiasdahl.github.io/osm-tag-dynamics/) for an interactive (and still somewhat experimental) web version of Graph 4 below.
-
+**Update 18.12.2015:**{: .update_header} *If you find the below graphs interesting, please visit [matiasdahl.github.io/osm-tag-dynamics](http://matiasdahl.github.io/osm-tag-dynamics/) for an interactive page where one can explore links to and from the top 100 amenity tags.*
+{: .update_note}
 
 
 This analysis studies amenities on the [OpenStreetMap](http://openstreetmap.org). These are identified by an `amenity`-tag that can contain free-form text. Say, `amenity=school`, `amenity=picnic_table` or `amenity=water_point`. General information about amenities and their use on the OpenStreetMap is collected on the [OSM wiki](http://wiki.openstreetmap.org/wiki/Key:amenity), and statistics about the most popular tags (including amenity tags) can be found on the [taginfo webpage](https://taginfo.openstreetmap.org/keys/amenity#values).
