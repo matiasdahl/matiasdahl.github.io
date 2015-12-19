@@ -73,7 +73,7 @@ date: 2015-12-01
 
 
 
-**Update 18.12.2015:**{: .update_header} *If you find the below graphs interesting, please visit [matiasdahl.github.io/osm-tag-dynamics](http://matiasdahl.github.io/osm-tag-dynamics/) for an interactive page where one can explore links to and from the top 100 amenity tags.*
+**Update 18.12.2015:**{: .update_header} *The website [matiasdahl.github.io/osm-tag-dynamics](http://matiasdahl.github.io/osm-tag-dynamics/) is a continuation of the below blog post. It makes it possible to interactively explore tags related to the top 100 amenity tags.*
 {: .update_note}
 
 
