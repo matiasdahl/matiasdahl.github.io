@@ -6,15 +6,18 @@ Built using [Jekyll](https://jekyllrb.com/) by [adapting](https://github.com/mat
 
 ### Building
 
-Used with jekyll 2.5.3, see https://jekyllrb.com/docs/usage/
+See https://jekyllrb.com/docs/usage/
 
-Testing:
+Local testing
 ```
-jekyll serve
+gem update --system
+gem update
+bundle install
+bundle exec jekyll serve
 # watches directory for changes and serves content at http://127.0.0.1:4000/
 ```
 
-Production
+Make website
 ```
 jekyll build
 # output in ./_site directory
